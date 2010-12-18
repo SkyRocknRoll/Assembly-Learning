@@ -1,5 +1,6 @@
 #This Assembly program will just exit :P
 #To make a system call we have to call software interrupt 0x80 with sytem call routine in eax 
+#The system call number can be found in /usr/include/asm/unistd.h
 #1st argument in ebx 
 #2nd argument ecx ans so on till 5 arguments
 
