@@ -7,7 +7,7 @@
 
 # Source code should be written in .text
 .text 
-# .global_start contains external callable routines
+# .globl_start contains external callable routines
 .globl _start
 
 # similat to main program in C
